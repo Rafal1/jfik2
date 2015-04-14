@@ -16,7 +16,7 @@ public class StateL implements State {
     public void goBySymbol(Character s) {
         switch (s) {
             case ' ':
-                kdsm.setState(kdsm.getStateD());
+                kdsm.setState(kdsm.getStateM());
                 break;
             default:
                 kdsm.resetMachine();
